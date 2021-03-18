@@ -31,11 +31,11 @@ function setup(){
     boggie5 = new Boggie(450,170)
     boggie6 = new Boggie(550,170)
 
-    chain1 = new Chain(boggie1.body, boggie2.body)
-    chain2 = new Chain(boggie2.body, boggie3.body)
-    chain3 = new Chain(boggie3.body, boggie4.body)
-    chain4 = new Chain(boggie4.body, boggie5.body)
-    chain5 = new Chain(boggie5.body, boggie6.body)
+//     chain1 = new Chain(boggie1.body, boggie2.body)
+//     chain2 = new Chain(boggie2.body, boggie3.body)
+//     chain3 = new Chain(boggie3.body, boggie4.body)
+//     chain4 = new Chain(boggie4.body, boggie5.body)
+//     chain5 = new Chain(boggie5.body, boggie6.body)
 
     rock = new Rock(1100,200)
     
@@ -60,11 +60,11 @@ function draw(){
     boggie4.display()
     boggie5.display()
     boggie6.display()
-    chain1.display()
-    chain2.display()
-    chain3.display()
-    chain4.display()
-    chain5.display()
+//     chain1.display()
+//     chain2.display()
+//     chain3.display()
+//     chain4.display()
+//     chain5.display()
     rock.display()
 
 
